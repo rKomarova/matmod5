@@ -1,4 +1,4 @@
-model lab5
+model lab5_2
 parameter Real a = 0.73;
 parameter Real b = 0.52;
 parameter Real c = 0.037;
@@ -15,4 +15,4 @@ equation
 der(x) = -a*x + c*x*y;
 der(y) = b*y - d*x*y;
 
-end lab5;
+end lab5_2;
